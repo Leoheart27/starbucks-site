@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Starbucks</title>
+
+    <script>
+        window.onload = function(){
+            document.querySelector(".mobile_menu").addEventListener("click", function(){
+                if(document.querySelector("nav ul").style.display == 'block') {
+                    document.querySelector("nav ul").style.display = 'none';
+                } else {
+                    document.querySelector("nav ul").style.display = 'block';
+                }
+            });
+        };
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="head_content">
+            <div class="logo">
+                <img src="./img/logo.png" alt="">
+            </div>
+            <nav>
+                <ul class="hidden_menu">
+                    <li><a href="#sec_1"> Section 1</a></li>
+                    <li><a href="#sec_2"> Section 2</a></li>
+                    <li><a href="#sec_3"> Section 3</a></li>
+                    <li><a href="#sec_4"> Section 4</a></li>
+                </ul>
+                <form>
+                    <input type="search" placeholder="Search">
+                    <button><img src="./img/loupe.png" alt=""></button>
+                </form>
+                <div class="mobile_menu">
+                    <div class="nav_bar"></div>
+                    <div class="nav_bar"></div>
+                    <div class="nav_bar"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="main_container">
+            <div class=title>
+                <h1>Starbucks®<br>
+                    Happy Hour
+                </h1>
+                <p>Encontraremos você em sua caixa de entrada. Ofertas de bebidas estão a caminho.</p>
+            </div>
+            <div class="cups">
+                <img src="./img/c1.jpg" alt="">
+                <img src="./img/c2.jpg" alt="">
+                <img src="./img/c3.jpg" alt="">
+            </div>
+        </div>
+    </main>
+
+    <section id="sec_1">
+        <div class="container">
+            <div class="content">
+                <div class="green_bar"></div>
+                <h2>Quatro Bebidas, Um Milhão De Razões</h2>
+                <p class="quote">"Apenas ame a si mesmo e pronto." <br> - Lady Gaga</p>
+                <p>Lady Gaga e a Starbucks compartilham uma missão: construir um mundo mais amável e corajoso.
+                    Por meio da Fundação Born This Way, Lady Gaga inspirou seus fãs a abraçar a bondade em suas
+                    comunidades -
+                    online e no mundo todo. Com a sua ajuda, podemos capacitar os jovens a espalhar mais gentileza.</p>
+                <div class="button">Saber mais</div>
+            </div>
+            <div class="div_f2">
+                <img src="./img/f2.jpg" alt="">
+            </div>
+        </div>
+        <div class="div_f1">
+            <img src="./img/f1.jpg" alt="">
+        </div>
+    </section>
+
+    <section id="sec_2">
+        <div class="div_f3">
+            <img src="./img/f3.jpg" alt="">
+        </div>
+        <div class="container">
+            <div class="content">
+                <div class="green_bar"></div>
+                <h2>Apresentando Vanilla Sweet Cream Cold Brew - Doce, Cremoso, Frio, Ousado.</h2>
+                <p>Pouco antes de servir, nosso café Starbucks® Cold Brew de mistura lenta e personalizada é
+                    coberto com um delicado creme de baunilha doce feito em casa que se espalha por toda a xícara.</p>
+                <div class="button">Saber mais</div>
+            </div>
+            <div class="div_f4">
+                <img src="./img/f4.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="sec_3">
+        <div class="container bg_logo">
+            <div class="content">
+                <div class="green_bar"></div>
+                <h2>Chegou O Novo Ultra Caramel Frappuccino!</h2>
+                <p>Parabéns por fazer isso! Isso exige caramelo. Muitos disso.
+                    Com creme de leite fresco. Chegou o novo Ultra Caramel Frappuccino!</p>
+                <div class="button">Saber mais</div>
+            </div>
+        </div>
+        <div class="div_f5">
+            <img src="./img/f5.jpg" alt="">
+        </div>
+    </section>
+
+    <section gray id="sec_4">
+        <div class="container">
+            <div class="ghost_row"></div>
+            <div class="ghost_row"></div>
+            <div class="content">
+                <div class="green_bar"></div>
+                <h2> A Bondade Começa Com Uma Xícara</h2>
+                <p>Apresentando a coleção Cups of Kindness: quatro drinks muito especiais tão deliciosos e refrescantes
+                    quanto lindos. Duas novas criações,
+                    Matcha Lemonade e Violet Drink, irão se juntar à Pink Drink e Ombré Pink Drink como favoritos
+                    instantâneos do verão.</p>
+                <div class="button">Saber mais</div>
+            </div>
+        </div>
+        <div class="div_bg3">
+            <img src="./img/bg3.jpg" alt="">
+        </div>
+    </section>
+    <section gray>
+        <div class="div_bg4">
+            <img src="./img/bg4.jpg" alt="">
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer_content">Exemplo de texto de rodapé</div>
+        <div class="footer_content">Template criado com <a href=""> Nicepage.</a></div>
+        <div class="footer_content">Template editado/refeito por Leonardo.</div>
+    </footer>
+
+</body>
+
+</html>
